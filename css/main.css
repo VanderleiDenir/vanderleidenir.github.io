@@ -9,7 +9,7 @@ h2, .h2 { font-size: 25px; color: #4A6D91; }
 /* CONTAINER */
 .container { margin-top: 80px; margin-bottom: 15px; background: #fff; }
 .none { display: none; }
-.box { font-size: 1.3em; border-bottom: 2px #ddd dotted; }
+.box { font-size: 1.3em; border-bottom: 2px #ddd dotted;  padding-bottom: 10px; }
 /* PHOTO (AVATAR) */
 #header { border-bottom: 4px #CCC double; }
 #photo-header { margin-top: -75px; }
@@ -18,11 +18,11 @@ h2, .h2 { font-size: 25px; color: #4A6D91; }
 #text-header h1 { font-weight: bold; }
     #text-header h1 span { color: #4A6D91; font-size: 22px; }
 /* EDUCATION, EXPERIENCES, COURSES, PORTFOLIO */
-.description { width: 100%; display: inline-block; margin-bottom: 10px; position: relative; padding: 10px 10px 0 10px;}
+.description { width: 100%; display: inline-block; position: relative; padding: 10px 10px 0 10px;}
     .description h3 { font-size: 1.3em; margin: 0; padding: 0; font-weight: 700; margin-bottom: 5px; }
-    .description p { margin-top: 5px; padding: 0; text-align: justify; text-justify: inter-word; }
+    .description p { margin-top: 5px; padding: 0; font-size: 14px; text-align: justify; text-justify: inter-word; }
 /* CONTACT */
-.contact-item { font-size: 1.1em; margin-left: 4px; margin-top: 10px; }
+.contact-item { margin-left: 4px; }
     .contact-item i { padding: 10px 6px 0; }
     .contact-item .title { font-weight: 700; opacity: 0.9; }
 /* FOOTER */
