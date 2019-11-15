@@ -6,45 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut ico" type="image/x-icon" href="favicon.ico" />
     <link rel="base" href="http://vanderleidenir.com.br" />
-    <title>Vanderlei Denir - Desenvolvedor .NET Full Stack</title>
+    <title>Vanderlei Denir Schmitz - Desenvolvedor .NET Full Stack</title>
    
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="container">
-        <div id="header" class="row">
-            <div class="col-sm-12">
-                <div class="col-sm-12 col-md-4 col-md-3">
-                    <div id="photo-header" class="text-center">
-                        <div id="photo">
-                            <img src="https://secure.gravatar.com/avatar/3ce535d7d03d1575101cc75afba57d59?s=150" alt="avatar">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-8 col-md-6">
-                    <div id="text-header" class="text-center">
-                        <h1 style="margin-top: 10px;" itemprop="name">Vanderlei Denir</h1>
-                        <h2 itemprop="jobtitle">Desenvolvedor .NET Full Stack</h2>
+        <div id="header" class="row form-group">
+            <div class="col-12 text-center">
+                <div id="photo-header">
+                    <div id="photo">
+                        <img src="https://secure.gravatar.com/avatar/3ce535d7d03d1575101cc75afba57d59?s=150" alt="avatar" width="150px" height="150px" />
                     </div>
                 </div>
             </div>
+            <div class="col-12 form-group text-center">
+                <div id="text-header">
+                    <h1 style="margin-top: 10px;" itemprop="name">Vanderlei Denir Schmitz</h1>
+                    <h4 itemprop="jobtitle">Desenvolvedor .NET Full Stack</h2>
+                </div>
+            </div>
         </div>
-        <div class="row">
+        <div class="row form-group">
             <div class="col-sm-12 col-md-7">
-                <div id="me" class="box">
+                <div id="me" class="box form-group">
                     <h2><i class="icon-star"></i>&nbsp;Habilidades</h2>
                     <div class="description" style="font-size: 15px" itemprop="description">
-                        <ul>
-                            <li>jQuery e AngularJS</li>
-                            <li>Twitter Bootstrap</li>
-                            <li>C# e VB.NET</li>
-                            <li>ASP.NET MVC, WebForms e WebAPI</li>
+                        <ul class="mb-0">
+                            <li>HTML 5, Javascript, CSS3</li>
+                            <li>jQuery, AngularJS 1.x e Twitter Bootstrap</li>
+                            <li>C#, VB.NET, ASP.NET WebForms</li>
+                            <li>ASP.NET WebAPI e .Net Core WebAPI</li>
                             <li>SQL Server e MySQL</li>
+                            <li>AWS (S3, RDS, EC2, SES)</li>
                         </ul>
                     </div>
                 </div>
-                <div id="education" class="box">
+                <div id="education" class="box form-group">
                     <h2><i class="icon-edit"></i>&nbsp;Educação</h2>
                     <div class="description">
                         <h3>2013·2015 - Segurança da Informação (Especialização)</h3>
@@ -55,7 +54,7 @@
                         <a class="location" href="http://www.ies.edu.br" rel="nofollow" target="_blank"><i class="icon-external-link"></i>&nbsp;IESGF - Instututo de Ensino Superior da Grande Florianópolis</a>
                     </div>
                 </div>
-               <div id="projects" class="box">
+               <div id="projects" class="box form-group">
                     <h2><i class="icon-code"></i>&nbsp;Trabalhos Voluntários</h2>
                     <div class="description clearfix">
                         <h3>2016·Atual - Analista Desenvolvedor .NET</h3>
@@ -64,7 +63,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-5">
-                <div id="job" class="box">
+                <div id="job" class="box form-group">
                     <h2><i class="icon-work"></i>&nbsp;Experiências</h2>
                     <div class="description clearfix" itemscope itemtype="http://schema.org/Organization">
                         <h3>2018·Atual - Analista Desenvolvedor .NET</h3>
@@ -79,7 +78,7 @@
                         <a class="location" href="http://tdsa.com.br" target="_blank"><i class="icon-external-link"></i>&nbsp;TDSA Sistemas</a>
                     </div>
                 </div>
-                <div id="contact" class="box clearfix">
+                <div id="contact" class="box form-group clearfix">
                     <h2><i class="icon-contact"></i>&nbsp;Contato</h2>
                     <div class="contact-item">
                         <i class="icon-map-marker"></i><span class="title" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -101,33 +100,11 @@
             </div>
         </div>
         <div id="footer" class="row">
-            <div class="col-sm-12">
-                <br />
-                <p class="text-center">2018 © <a itemprop="url" href="http://vanderleidenir.com.br"><strong>Vanderlei Denir</strong></a>
+            <div class="col-sm-12 pt-3">
+                <p class="text-center">2019 © <a itemprop="url" href="http://vanderleidenir.com.br"><strong>Vanderlei Denir</strong></a>
             </div>
         </div>
     </div>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments);
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-38537890-3', 'auto');
-        ga('send', 'pageview');
-
-        document.addEventListener("DOMContentLoaded", function () {
-            var clickHandler = function () {
-                ga('send', 'event', 'outbound', 'click', this.href, { 'transport': 'beacon' });
-            }
-
-            var elements = document.getElementsByTagName('a');
-            for (var n = 0; n < elements.length; ++n)
-                elements[n].onclick = clickHandler;
-        });
-    </script>
 </body>
 
 </html>
